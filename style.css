@@ -375,7 +375,6 @@ footer {
     /* Main section */
 
     main {
-        max-width: 90rem;
         top: -16.6%;
         margin-bottom: 16.76rem;
     }
@@ -391,7 +390,7 @@ footer {
     }
 
     .main-description {
-        max-width: 27.8125rem;
+        max-width: 28.8125rem;
         margin: 0 0 2.2222em;
     }
 
