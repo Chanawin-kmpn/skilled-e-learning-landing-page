@@ -101,14 +101,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 1rem 2.375rem;
     z-index: 2;
+    margin: 1rem 1rem 2.375rem;
 }
 
 header>.get-start-btn {
-    padding: 0.5625rem 1.5rem 0.6875rem;
     border-radius: 28px;
     background-color: hsla(234, 53%, 16%, 1);
+    padding: 0.5625rem 1.5rem 0.6875rem;
 }
 
 header>.get-start-btn:hover {
@@ -141,8 +141,8 @@ main {
 }
 
 main .get-start-btn.colored {
-    background: linear-gradient(180deg, hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1) 100%);
     border-radius: 31.50px;
+    background: linear-gradient(180deg, hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1) 100%);
     margin-inline: 1rem;
     padding: 0.9375rem 2.375rem
 }
@@ -216,9 +216,9 @@ footer {
 }
 
 .footer-wrapper>.get-start-btn {
-    padding: 0.5625rem 1.5rem 0.6875rem;
     border-radius: 28px;
     background: linear-gradient(180deg, hsla(237, 100%, 64%, 1) 0%, hsla(322, 87%, 55%, 1) 100%);
+    padding: 0.5625rem 1.5rem 0.6875rem;
 }
 
 .footer-wrapper>.get-start-btn:hover {
@@ -299,10 +299,6 @@ footer {
 
     /* Footer section */
 
-    footer {}
-
-    .footer-container {}
-
     .footer-wrapper {
         padding: 2.25rem 2.5rem;
     }
@@ -324,11 +320,6 @@ footer {
 
     h2 {
         font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.25rem;
-        font-weight: 800;
     }
 
     p {
@@ -423,9 +414,6 @@ footer {
 
     /* Footer section */
 
-    footer {}
-
-
     .footer-wrapper {
         padding: 2rem 10.3125rem;
 
@@ -439,3 +427,56 @@ footer {
 }
 
 /* Desktop responsive */
+
+/* Below mobile responsive */
+
+@media (max-width: 374px) {
+
+    /* Font responsive section */
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.get-start-btn {
+    font-size: 0.725rem;
+    line-height: 1.55;
+}
+
+
+/* Font responsive section */
+
+    .wrapper {
+        background-position: center top 32rem;
+        background-size: 19.0625rem;
+    }
+
+    /* Header section */
+
+    header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    /* Header section */
+
+    /* Main section */
+
+    main {
+        text-align: center;
+        margin-bottom: 20rem;
+    }
+
+    .main-section {
+        align-items: center;
+    }
+
+    /* Main section */
+
+    /* Footer section */
+    .footer-wrapper {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
