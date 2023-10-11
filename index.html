@@ -1,52 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Skilled e-learning landing page</title>
 </head>
+
 <body>
 
-  Get Started
-
-  Maximize skill, minimize budget
-
-  Our modern courses across a range of in-demand skills will give you the 
-  knowledge you need to live the life you want.
-
-  Get Started
-
-  Check out our most popular courses!
-
-  Animation
-  Learn the latest animation techniques to create stunning motion 
-  design and captivate your audience.
-  Get Started
-
-  Design
-  Create beautiful, usable interfaces to help shape the future of 
-  how the web looks.
-  Get Started
-
-  Photography
-  Explore critical fundamentals like lighting, composition, and focus 
-  to capture exceptional photos.
-  Get Started
-
-  Crypto
-  All you need to know to get started investing in crypto. Go from beginner 
-  to advanced with this 54 hour course.
-  Get Started
-
-  Business
-  A step-by-step playbook to help you start, scale, and sustain your business 
-  without outside investment.
-  Get Started
-
-  Get Started
-
+  <div class="wrapper">
+    <header>
+      <div class="logo-wrapper">
+        <img src="./assets/logo-dark.svg" alt="Dark logo" class="dark logo">
+      </div>
+      <a href="#" class="get-start-btn">Get Started</a>
+    </header>
+    <main>
+      <section class="main-section">
+        <h1 class="main-heading">Maximize skill, minimize budget</h1>
+        <p class="main-description">Our modern courses across a range of <span
+            style="white-space: nowrap;">in-demand</span> skills will give you the knowledge you
+          need to live the life you want.</p>
+        <a href="#" class="get-start-btn colored">Get Started</a>
+      </section>
+    </main>
+    <article>
+      <ul class="list-container">
+        <li class="heading list-item">
+          <h2>Check out our most popular courses!</h2>
+        </li>
+        <li class="list-item">
+          <img src="./assets/icon-animation.svg" alt="Animation icon">
+          <h3>Animation</h3>
+          <p>Learn the latest animation techniques to create stunning motion
+            design and captivate your audience.</p>
+          <a href="#" class="get-start-link">Get Started</a>
+        </li>
+        <li class="list-item">
+          <img src="./assets/icon-design.svg" alt="">
+          <h3>Design</h3>
+          <p>Create beautiful, usable interfaces to help shape the future of
+            how the web looks.</p>
+          <a href="#" class="get-start-link">Get Started</a>
+        </li>
+        <li class="list-item">
+          <img src="./assets/icon-photography.svg" alt="">
+          <h3>Photography</h3>
+          <p>Explore critical fundamentals like lighting, composition, and focus
+            to capture exceptional photos.
+            Get Started</p>
+          <a href="#" class="get-start-link">Get Started</a>
+        </li>
+        <li class="list-item">
+          <img src="./assets/icon-crypto.svg" alt="">
+          <h3>Crypto</h3>
+          <p>All you need to know to get started investing in crypto. Go from beginner
+            to advanced with this 54 hour course.</p>
+          <a href="#" class="get-start-link">Get Started</a>
+        </li>
+        <li class="list-item">
+          <img src="./assets/icon-business.svg" alt="">
+          <h3>Business</h3>
+          <p>A step-by-step playbook to help you start, scale, and sustain your business
+            without outside investment.</p>
+          <a href="#" class="get-start-link">Get Started</a>
+        </li>
+      </ul>
+    </article>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-wrapper">
+          <div class="logo-wrapper">
+            <img src="./assets/logo-light.svg" alt="Light logo" class="light logo ">
+          </div>
+          <a href="#" class="get-start-btn colored">Get Started</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
 </body>
+
 </html>
