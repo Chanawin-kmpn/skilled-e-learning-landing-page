@@ -381,13 +381,12 @@ footer {
     }
 
     .main-section {
-        max-height: 50rem;
         margin-bottom: -1.1rem;
         padding: 0 10.3125rem;
     }
 
     .main-heading {
-        max-width: 28.5625rem;
+        max-width: 31.25rem;
         margin: 0 0 0.5178em
     }
 
