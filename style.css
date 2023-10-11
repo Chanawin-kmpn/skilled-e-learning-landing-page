@@ -86,11 +86,10 @@ body {
     flex-direction: column;
     align-items: center;
     /* margin: 0 auto; */
-
+    background: linear-gradient(180deg, hsl(0, 0%, 100%) 0%, hsl(232, 100%, 97%) 100%);
 }
 
 .wrapper {
-    background: linear-gradient(180deg, white 0%, #F0F1FF 100%);
     background-image: url(./assets/image-hero-mobile.png);
     background-repeat: no-repeat;
     background-position: center top 25.8rem;
@@ -352,6 +351,7 @@ footer {
     }
 
     /* Font responsive section */
+
 
     .wrapper {
         background-image: url(./assets/image-hero-desktop@2x.png);
